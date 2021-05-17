@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.license       = "MIT"
   spec.author        = { "Farshidroohi" => "farshid.roohi.a@gmail.com" }
   spec.platform      = :ios, "11.0"
-  spec.source        = { :http => "https://github.com/FarshidRoohi/FarshidPodHelloWorldPrivate/releases/download/#{spec.version}/FarshidPodHelloWorldPrivate.framework.zip" }
+  spec.source        = { :http => "https://github.com/FarshidRoohi/FarshidPodHelloWorldPrivate/releases/download/#{spec.version}/FarshidPodHelloWorldPrivate.zip" }
   spec.vendored_frameworks  = 'FarshidPodHelloWorldPrivate.framework'
 
 end
