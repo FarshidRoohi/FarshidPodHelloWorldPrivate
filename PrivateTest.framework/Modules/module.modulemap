@@ -1,0 +1,11 @@
+framework module PrivateTest {
+  umbrella header "PrivateTest.h"
+
+  export *
+  module * { export * }
+}
+
+module PrivateTest.Swift {
+    header "PrivateTest-Swift.h"
+    requires objc
+}
